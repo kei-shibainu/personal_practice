@@ -1,0 +1,30 @@
+# django
+# 環境設定ファイル
+**/*.env
+
+# Pythonのコンパイル済みファイル
+**/__pycache__/
+**/*.pyc
+**/*.pyo
+
+# SQLiteデータベースファイル
+**/db.sqlite3
+
+# 仮想環境
+**/venv/
+
+# マイグレーションファイルのキャッシュ
+**/migrations/__pycache__/
+**/migrations/0*.py
+
+# tailwindcss
+# Node.js の依存関係
+**/node_modules/
+
+# ビルド成果物
+**/dist/
+**/build/
+
+# Tailwind CSS に関連する生成ファイル
+**/public/styles/
+**/public/css/
